@@ -386,6 +386,7 @@ button text{
 .filters {
 
     list-style: none;
+    
 
 }
 
@@ -410,9 +411,6 @@ button text{
     border: none;
     cursor: pointer;
     background: #F4F4FD;
-
-    
-
 }
 
 .portfolio-button:hover,
