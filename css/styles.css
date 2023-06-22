@@ -53,8 +53,7 @@ body {
 
 .menu .link:hover,
 .menu .link:active {
-    text-decoration: underline;
-    text-decoration-color: #404BBF;
+    color: #404BBF;
 
 }
 
@@ -87,8 +86,7 @@ body {
 
 .menu-right .link:hover,
 .menu-right .link:active {
-    text-decoration: underline;
-    text-decoration-color: #404BBF;
+    color: #404BBF;
 
 }
 
@@ -309,6 +307,9 @@ button text{
         height: 56px;
         left: 636px;
         top: 428px;
+
+        border: none;
+        cursor: pointer;
     
         /* IRIS */
     
@@ -384,14 +385,7 @@ button text{
 
 .filters {
 
-    text-decoration: none;
-    justify-content: center;
-
-
-    justify-content: center;
-  
-
-
+    list-style: none;
 
 }
 
@@ -412,6 +406,10 @@ button text{
     justify-content: center;
     align-items: center;
     padding: 12px 24px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background: #F4F4FD;
 
     
 
@@ -563,6 +561,7 @@ button text{
         font-size: 36px;
         line-height: 40px;
         /* identical to box height, or 111% */
+        
     
         text-align: center;
         letter-spacing: 0.02em;
@@ -591,6 +590,8 @@ button text{
     top: 156px;
 
 }
+
+
 
 .team-item>.team-name,
 .base>.team-name {
@@ -653,10 +654,12 @@ button text{
     right: 0%;
     top: 0%;
     bottom: 0%;
-
     background: #4D5AE5;
 }
 
+.team-link {
+    cursor: pointer;
+}
 .portfolio-item>.portfolio-name,
 .base>.portfolio-name {
     padding: 10px;
@@ -879,7 +882,7 @@ button text{
 
 }
 
-.social {
+.company {
 
     position: absolute;
         width: 208px;
@@ -900,4 +903,8 @@ button text{
         /* WHITE */
     
         color: #FFFFFF;
+}
+
+.company-socialmedia-link {
+    cursor: pointer;
 }
